@@ -1,0 +1,76 @@
+<!doctype html>
+<html ng-app="app">
+<head>
+    <base href="/">
+    <meta name="fragment" content="!">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title ng-bind="ngMeta.title">Bucket.io</title>
+    <!-- Twitter Card data -->
+    <!-- <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@publisher_handle">
+    <meta name="twitter:title" content="{{(ngMeta.title)? ngMeta.title : 'Bucket.io'}}">
+    <meta name="twitter:description" content="{{ngMeta.description}}"> -->
+    <!-- Twitter Summary card images must be at least 200x200px -->
+    <!-- <meta name="twitter:image" content="{{ngMeta.image}}"> -->
+
+    <!-- Open Graph data -->
+    <!-- <meta property="og:title" content="{{(ngMeta.title)? ngMeta.title : 'Bucket.io'}}" />
+    <meta property="og:description" content="{{ngMeta.description}}" />
+    <meta property="og:image" content="{{ngMeta.image}}" /> -->
+
+    <!-- build:css style/lib.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild-->
+    <!-- build:css style/app.css -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/.tmp/main.css">
+    <!-- endinject -->
+    <!-- endbuild -->
+    
+</head>
+
+<body>
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    
+    
+    <div ui-view></div>
+
+    <!-- build:js js/lib.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js js/app.js -->
+    <!-- inject:js -->
+ 
+    <script src="/src/app/app.module.js"></script>
+ 
+    <script src="/src/app/core/app.module.js"></script>
+ 
+    <script src="/src/app/components/header/header.module.js"></script>
+ 
+    <script src="/src/app/core/app.config.js"></script>
+ 
+    <script src="/src/app/components/header/header.component.js"></script>
+ 
+    <script src="/src/app/components/header/header.controller.js"></script>
+ 
+    <!-- endinject -->
+
+    <!-- inject:templates:js -->
+    <!-- endinject -->
+    <!-- endbuild -->
+
+
+
+</body>
+
+</html>

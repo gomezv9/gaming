@@ -1,0 +1,14 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	background: #f3f3f3;
+}
+
+.mainContainer{
+	width:100%;
+	height:auto;
+}
+
+@import '_header.scss';
+@import '_menu.scss';
