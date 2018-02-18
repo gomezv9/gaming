@@ -10,6 +10,7 @@ header{
 	    height: 46px;
 	    top: 16px;
 	    width: 150px;
+	    cursor: pointer;
 
 	    span{
 	    	color: #879099;
@@ -26,6 +27,7 @@ header{
 		    top: 41px;
 		    padding: 0;
 		    margin: 0;
+		    cursor: pointer;
 
 		    li{
 		    	color: #879099;
@@ -39,10 +41,6 @@ header{
 		    	}
 		    }
 		}
-
-		&:hover .dropdown-content {
-		    display: block;
-		}
 	}
 
 	.iconArrow{
@@ -51,6 +49,7 @@ header{
 	    font-size: 17px;
     	top: 30px;
     	color:#879099;
+    	cursor: pointer;
 	}
 
 	.line{
