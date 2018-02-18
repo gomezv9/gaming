@@ -45,6 +45,14 @@ header{
 		}
 	}
 
+	.iconArrow{
+		position: absolute;
+	    left: 176px;
+	    font-size: 17px;
+    	top: 30px;
+    	color:#879099;
+	}
+
 	.line{
 		width: 1px;
 		height: 30px;
@@ -73,6 +81,14 @@ header{
     	&::-webkit-input-placeholder{
 			color:#D0D3D6;
 		  }
+	}
+
+	.iconSearch{
+		position: absolute;
+	    left: 226px;
+	    font-size: 17px;
+    	top: 30px;
+    	color:#879099;
 	}
 
 	.logo{

@@ -13,6 +13,7 @@ module.exports = function() {
         client: client,
         css: temp + 'main.css',
         images: client + 'images/**/**.*',
+        fonts: client + 'font/**/**.*',
         htmltemplates: client + 'views/**/*.html',
         index: client + 'index.html',
 		html: client + '**/*.html',

@@ -1,0 +1,71 @@
+@media screen and (max-width: 768px) {
+	header{
+		height: 154px;
+
+		.logo{
+			top:24px;
+    		left: 47px;
+    		transform:inherit;
+		}
+
+		.browserCategory{
+			top:86px;
+		}
+
+		.line{
+			&.first{
+				top:94px;
+			}
+		}
+
+		input[type='text']{
+			top:88px;
+		}
+
+		.iconSearch{
+			top:101px;
+		}
+
+		.iconArrow{
+			top:99px;
+		}
+
+	}
+}
+
+@media screen and (max-width: 414px) {
+	header{
+
+		.textMenu{
+			display: none;
+		}
+
+		#nav-icon2{
+			right: 23px;
+		}
+
+		.line{
+
+			&.first{
+				left: 197px;
+			}
+
+			&.second{
+				right: 104px;
+			}
+		}
+
+		.imgAvatar{
+			right: 136px;
+		}
+
+		input[type='text']{
+			left:236px;
+		}
+
+		.iconSearch{
+			left:210px;
+		}
+
+	}
+}

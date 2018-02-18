@@ -37,6 +37,12 @@ gulp.task('styles',['clean-styles'],function(){
 	.pipe(browserSync.stream());
 });
 
+gulp.task('fonts',function(){
+    log('Copying fonts');
+    return gulp.src(config.fonts)
+    .pipe(gulp.dest(config.build + 'font'));
+});
+
 
 gulp.task('images',['clean-images'],function(){
     log('Copying and compressing the images');
@@ -99,7 +105,7 @@ gulp.task('wiredep', function() {
 });
 
 
-gulp.task('inject', [ 'styles','images','templatecache'], function() {
+gulp.task('inject', [ 'styles','images','templatecache','fonts'], function() {
     log('Wire up the app css into the html, and call wiredep ');
 
     return gulp
